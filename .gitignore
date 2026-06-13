@@ -1,0 +1,14 @@
+# Mengabaikan database SQLite
+database_upz_desa.db
+*.db
+*.sqlite3
+
+# Mengabaikan cache python dan environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Mengabaikan file sistem tersembunyi
+.DS_Store
