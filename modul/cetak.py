@@ -5,7 +5,6 @@ from config import DB_NAME
 
 # Hapus try...except, biarkan import langsung agar error asli terlihat
 from modulcetak import cetak_d1, cetak_d2, cetak_d3, cetak_d4, cetak_d5, cetak_d6, cetak_kupon, cetak_bast_kec
-
 def render():
     st.title("🖨️ Pusat Cetak Dokumen (Modular)")
     
